@@ -16,4 +16,9 @@ SISH$ ls
 a b c d
 SISH$ whoami
 z
+SISH$ echo $?
+0
+SISH$ echo $$
+11304
+SISH$ exit
 ```

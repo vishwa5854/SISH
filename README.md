@@ -8,3 +8,12 @@ https://stevens.netmeister.org/631/sish.1.pdf
 ```sh
 make clean && make
 ```
+
+## How to run?
+```sh
+./sish [OPTIONS]
+SISH$ ls
+a b c d
+SISH$ whoami
+z
+```

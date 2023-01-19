@@ -9,7 +9,7 @@ https://stevens.netmeister.org/631/sish.1.pdf
 make clean && make
 ```
 
-## How to run?
+## Sample Usage
 ```sh
 ./sish [OPTIONS]
 SISH$ ls

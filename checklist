@@ -1,0 +1,43 @@
+Did I write all the code myself?
+YES
+
+Does my code follow the style guide?
+YES
+
+Does my code compile without warnings or errors on a
+YES
+
+Did I provide a Makefile?
+YES
+
+Did I provide a README to explain any problems or
+issues I encountered?
+YES
+
+Did I check the return value of all function calls?
+YES
+
+Did I send error messages to stderr?  Did I use
+strerror(3) or perror(3) etc. to print meaningful
+error messages?
+YES
+
+Did I use only meaningful and necessary comments?
+YES
+
+Does my program only generate meaningful output?
+YES
+
+Does my program return zero on success, non-zero otherwise?
+YES
+
+Did I make sure that my .h files only include function
+forward declarations, macros, etc., no function
+implementations or other code?
+YES
+
+Did I check that I have avoided code duplication?
+Writing the same or very similar code multiple times
+is a sign that my program could benefit from being
+restructured.
+YES

@@ -28,7 +28,7 @@ void cd(char *path) {
         }
 
         path = (char *)malloc(sizeof(char) * (strlen(current_user) + strlen("/home/")));
-        (void)strncpy(path, "/home/", strlen("/home/"));
+        (void)strncpy(path, "/home/", strlen("/home/") + 1);
         (void)strncat(path, current_user, strlen(current_user));
     }
 

@@ -1,18 +1,19 @@
 //
 // Created by z on 12/17/22.
 //
-#include <limits.h>
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/syslimits.h>
+//#include <sys/syslimits.h>
 
 #include "command-parser.h"
 #include "data-structures.h"
 #include "flags-parser.h"
 #include "shell-builtins.h"
 #include "util.h"
+
+#define ARG_MAX BUFSIZ
 
 FLAGS flags;
 MasterCommand *current_mc;

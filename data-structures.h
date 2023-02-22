@@ -6,11 +6,11 @@
 #define SISH_DATA_STRUCTURES_H_
 
 #include <stdbool.h>
-#include <sys/syslimits.h>
+// #include <sys/syslimits.h>
 
-// #ifndef LOGIN_NAME_MAX
-// #define LOGIN_NAME_MAX 256
-// #endif
+#ifndef LOGIN_NAME_MAX
+#define LOGIN_NAME_MAX 256
+#endif
 
 #define MAX_COMMAND_SIZE 4096
 

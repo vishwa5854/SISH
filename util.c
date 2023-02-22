@@ -88,7 +88,7 @@ void set_env_shell() {
         (void)fprintf(stderr, "%s: Failed to set SHELL env: %s\n", PROGRAM_NAME, strerror(errno));
         exit(EXIT_FAILURE);
     }
-    (void)strncat(buff, "/sish", strlen("/sish"));
+    (void)strncat(buff, "/sish", strlen("/sish") + 1);
 
     if (setenv("SHELL", buff, 1) == -1) {
         (void)fprintf(stderr, "%s: Failed to set SHELL env: %s\n", PROGRAM_NAME, strerror(errno));

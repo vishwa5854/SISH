@@ -6,7 +6,7 @@
 #define SISH_DATA_STRUCTURES_H_
 
 #include <stdbool.h>
-#include <sys/syslimits.h>
+#include <limits.h>
 
 // #ifndef LOGIN_NAME_MAX
 // #define LOGIN_NAME_MAX 256

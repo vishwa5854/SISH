@@ -6,13 +6,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/syslimits.h>
+#include <limits.h>
 
 #include "command-parser.h"
 #include "data-structures.h"
 #include "flags-parser.h"
 #include "shell-builtins.h"
 #include "util.h"
+
+#ifndef ARG_MAX
+#define ARG_MAX 8192
+#endif
 
 FLAGS flags;
 MasterCommand *current_mc;

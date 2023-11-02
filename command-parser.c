@@ -53,7 +53,7 @@ int parse_one_command(char *original_command, TokenizedIndividualCommand *curren
                 if ((original_command[i] == '>') && ((i + 1) < n_original_command) &&
                     (original_command[i + 1] == '>')) {
                     current->command_str = (char *)malloc(sizeof(char) * 2);
-                    (void)strncpy(current->command_str, ">>", 2);
+                    (void)strncpy(current->command_str, ">>", 3);
                     i += 2;
                     i_updated = 1;
                 } else {
